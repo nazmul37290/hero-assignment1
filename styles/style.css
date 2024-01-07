@@ -202,3 +202,72 @@ main {
   margin-bottom: 100px;
   text-transform: uppercase;
 }
+
+/* new offer section styles */
+
+.new-offer-section {
+  margin-top: 120px;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.new-offer-leftside {
+  width: 33.33%;
+}
+.new-offer-title {
+  color: #f00;
+  /* text-align: center; */
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.new-offer-heading {
+  color: #070211;
+
+  font-family: Merriweather;
+  font-size: 48px;
+
+  font-weight: 900;
+
+  text-transform: capitalize;
+}
+
+.new-offer-description {
+  color: rgba(7, 2, 17, 0.6);
+  padding-top: 20px;
+  font-family: Inter;
+  font-size: 20px;
+
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.new-offer-middle {
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new-offer-img {
+  margin: 0 30px;
+}
+.new-offer-img img {
+  border: 35px solid rgb(255, 255, 255);
+  outline: 15px solid #f00;
+  border-radius: 50%;
+}
+.new-offer-rightside {
+  width: 33.33%;
+}
+.new-offer-rightside img {
+  margin-top: 30px;
+}
+.new-offer-year {
+  color: #f00;
+
+  font-family: Inter;
+  font-size: 48px;
+
+  font-weight: 700;
+}
