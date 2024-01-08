@@ -355,6 +355,12 @@ main {
 .portfolio-images-row img {
   width: 424px;
   border-radius: 16px;
+  transition: 0.3s;
+}
+
+.portfolio-images-row img:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.315);
 }
 
 /* subscribe section styles */
