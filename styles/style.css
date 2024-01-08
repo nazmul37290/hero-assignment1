@@ -28,27 +28,25 @@ header {
   align-items: center;
   height: 600px;
 }
-
-.banner-title {
-  color: #fff;
-  padding: 0 344px;
-
-  text-align: center;
-  font-family: Merriweather;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 95px;
-}
 .banner-contents {
 }
+
 .banner-greeting {
   color: #fff;
   text-align: center;
   font-family: Merriweather;
   font-size: 32px;
-
   font-weight: 400;
+}
+.banner-title {
+  color: #fff;
+  width: 630px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
 }
 
 /* main section styles */
@@ -66,10 +64,10 @@ main {
   font-size: 88px;
   font-style: normal;
   font-weight: 700;
-  margin-top: 120px;
 }
 
 .discount-section-title {
+  margin-bottom: 15px;
   color: #f00;
   margin-top: 48px;
   text-align: center;
@@ -85,7 +83,6 @@ main {
   text-align: center;
   font-family: Inter;
   font-size: 48px;
-  font-style: normal;
   font-weight: 700;
 }
 .discount-image {
@@ -101,20 +98,16 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-clip: padding-box;
-  background-blend-mode: multiply;
-  mix-blend-mode: multiply;
 }
 
 .register-section-container {
   display: flex;
   align-items: center;
-}
-.register-section-container img {
-  padding-right: 138px;
+  justify-content: space-evenly;
+  padding: 70px 100px;
 }
 .register-section-title {
   color: #fff;
-
   font-family: Merriweather;
   font-size: 64px;
   font-style: normal;
@@ -124,6 +117,7 @@ main {
 }
 
 .register-section-description {
+  width: 697px;
   color: rgba(255, 255, 255, 0.8);
   margin-top: 24px;
   margin-bottom: 40px;
@@ -132,10 +126,6 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-}
-
-.register-contents {
-  padding: 100px;
 }
 
 .register-contents a {
@@ -168,7 +158,6 @@ main {
   color: #070211;
   font-family: Inter;
   font-size: 32px;
-  font-style: normal;
   font-weight: 600;
   line-height: 56px;
   text-transform: capitalize;
@@ -178,11 +167,9 @@ main {
 }
 .info-title {
   color: #f00;
-
   text-align: center;
   font-family: Inter;
   font-size: 32px;
-
   font-weight: 600;
   line-height: 56px;
   text-transform: capitalize;
@@ -212,23 +199,19 @@ main {
   justify-content: space-evenly;
 }
 .new-offer-leftside {
-  width: 33.33%;
+  width: 440px;
 }
 .new-offer-title {
   color: #f00;
-  /* text-align: center; */
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
 }
 .new-offer-heading {
   color: #070211;
-
   font-family: Merriweather;
   font-size: 48px;
-
   font-weight: 900;
-
   text-transform: capitalize;
 }
 
@@ -237,13 +220,12 @@ main {
   padding-top: 20px;
   font-family: Inter;
   font-size: 20px;
-
   font-weight: 400;
   line-height: 30px;
 }
 
 .new-offer-middle {
-  width: 33.33%;
+  width: 440px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -257,17 +239,15 @@ main {
   border-radius: 50%;
 }
 .new-offer-rightside {
-  width: 33.33%;
+  width: 440px;
 }
 .new-offer-rightside img {
   margin-top: 30px;
 }
 .new-offer-year {
   color: #f00;
-
   font-family: Inter;
   font-size: 48px;
-
   font-weight: 700;
 }
 
@@ -283,13 +263,13 @@ main {
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
+  margin-bottom: 15px;
 }
 .sale-heading {
   text-align: center;
   color: #070211;
   font-family: Merriweather;
   font-size: 72px;
-
   font-weight: 900;
 }
 .sale-heading span {
@@ -297,7 +277,6 @@ main {
   text-align: center;
   font-family: Merriweather;
   font-size: 72px;
-
   font-weight: 900;
 }
 
@@ -344,7 +323,6 @@ main {
 }
 .portfolio-title {
   color: #f00;
-
   font-family: Inter;
   font-size: 24px;
   margin-bottom: 16px;
@@ -356,9 +334,7 @@ main {
   margin-bottom: 22px;
   font-family: Merriweather;
   font-size: 48px;
-
   font-weight: 900;
-
   text-transform: capitalize;
 }
 .portfolio-description {
@@ -378,7 +354,6 @@ main {
 
 .portfolio-images-row img {
   width: 424px;
-
   border-radius: 16px;
 }
 
@@ -459,7 +434,7 @@ footer {
 }
 .footer {
   width: 1320px;
-  padding: 80px 140px;
+  padding: 80px 0px;
   margin: 0 auto;
 }
 
@@ -467,7 +442,6 @@ footer {
   color: #fff;
   font-family: Inter;
   font-size: 24px;
-
   font-weight: 500;
   line-height: 40px;
 }
