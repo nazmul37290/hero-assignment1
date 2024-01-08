@@ -189,6 +189,7 @@ main {
 }
 
 .join-btn {
+  border: 0;
   border-radius: 8px;
   background: #f00;
   color: #fff;
@@ -379,4 +380,74 @@ main {
   width: 424px;
 
   border-radius: 16px;
+}
+
+/* subscribe section styles */
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background-color: rgba(255, 0, 0, 0.05);
+}
+.subscribe-img {
+  padding: 80px 0px 40px 0px;
+}
+.subscribe-heading {
+  color: #070211;
+  margin-bottom: 22px;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+
+  font-weight: 900;
+
+  text-transform: capitalize;
+}
+.subscribe-description {
+  color: rgba(7, 2, 17, 0.6);
+  width: 80%;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  margin-bottom: 48px;
+  line-height: 32px;
+}
+.subscribe-btn-container {
+  position: relative;
+  width: 648px;
+  height: 72px;
+  margin-bottom: 80px;
+}
+
+.subscribe-btn {
+  position: absolute;
+  padding: 24px 56px;
+  border: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+  right: 0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+
+  font-weight: 600;
+
+  text-transform: capitalize;
+}
+
+.subscribe-email {
+  border: 0;
+  border-radius: 50px;
+  position: absolute;
+  color: rgba(7, 2, 17, 0.645);
+  width: 648px;
+  height: 72px;
+  padding: 25px 0px 25px 30px;
+  font-family: Inter;
+  font-size: 20px;
+  outline: 0;
+  font-weight: 400;
 }
