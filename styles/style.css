@@ -4,25 +4,22 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* commonly shared styles */
-.overlay {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.641);
-  border-radius: 20px;
-  height: 575px;
+section {
+  margin-top: 120px;
 }
 /* banner section styles */
 header {
-  width: 80%;
-  height: 600px;
+  border-radius: 16px;
   max-width: 1320px;
   margin: 50px auto;
-  background: url("../images/Banner\ Image.png");
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner\ Image.png");
   background-size: contain;
+  background-clip: padding-box;
   background-repeat: no-repeat;
 }
 .banner {
@@ -47,7 +44,6 @@ header {
 }
 .banner-greeting {
   color: #fff;
-  /* padding-top: 177px; */
   text-align: center;
   font-family: Merriweather;
   font-size: 32px;
@@ -57,7 +53,6 @@ header {
 
 /* main section styles */
 main {
-  width: 80%;
   max-width: 1320px;
   margin: 0 auto;
 }
@@ -100,11 +95,14 @@ main {
 
 /* register section styles */
 .register-section {
-  margin-top: 120px;
-  height: 600px;
-  background-image: url("../images/Vectorrr.png");
-  background-size: contain;
+  border-radius: 16px;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png");
+  background-size: cover;
   background-repeat: no-repeat;
+  background-clip: padding-box;
+  background-blend-mode: multiply;
+  mix-blend-mode: multiply;
 }
 
 .register-section-container {
@@ -153,12 +151,13 @@ main {
 /* location section styles */
 
 .location {
+  border-radius: 16px;
   background-image: linear-gradient(
     180deg,
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
-  margin-top: 120px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -206,7 +205,6 @@ main {
 /* new offer section styles */
 
 .new-offer-section {
-  margin-top: 120px;
   display: flex;
   gap: 80px;
   align-items: center;
@@ -270,4 +268,115 @@ main {
   font-size: 48px;
 
   font-weight: 700;
+}
+
+/* sale section styles */
+.sale {
+  background-color: #fff;
+}
+.sale-text-container {
+}
+.sale-title {
+  text-align: center;
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.sale-heading {
+  text-align: center;
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+
+  font-weight: 900;
+}
+.sale-heading span {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+
+  font-weight: 900;
+}
+
+.sale-description {
+  color: rgba(7, 2, 17, 0.6);
+  width: 70%;
+  margin: 28px auto 60px auto;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.sale-banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.sale-banner-right {
+  margin: 0;
+  height: 433px;
+  width: 429px;
+  position: relative;
+}
+.sale-percent {
+  position: absolute;
+  left: -150px;
+  top: 50px;
+}
+
+.sale-left-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.sale-bottom-img {
+  position: relative;
+}
+
+/* portfolio section styles */
+.portfolio {
+}
+.portfolio-title {
+  color: #f00;
+
+  font-family: Inter;
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.portfolio-heading {
+  color: #070211;
+  margin-bottom: 22px;
+  font-family: Merriweather;
+  font-size: 48px;
+
+  font-weight: 900;
+
+  text-transform: capitalize;
+}
+.portfolio-description {
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 48px;
+  font-family: Inter;
+  font-size: 20px;
+  width: 70%;
+  line-height: 32px;
+}
+.portfolio-images-row {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-images-row img {
+  width: 424px;
+
+  border-radius: 16px;
 }
